@@ -9,10 +9,10 @@ export function Profile(){
     if (!data) return null;
 
     return(
-        <section className="flex flex-row lg:items-center items-start justify-center h-235 md:h-250 lg:h-130 w-full bg-indigo-600 dark:bg-indigo-950">
-            <div className="flex flex-col items-center lg:p-15 md:mb-10 lg:w-8/11 w-9/11 lg:mt-0 mt-17">
+        <section className="flex flex-row xl:items-center items-start justify-center h-235 md:h-250 lg:h-140 xl:h-130 w-full bg-indigo-600 dark:bg-indigo-950">
+            <div className="flex flex-col items-center lg:p-15 md:mb-10 lg:w-10/11 xl:w-8/11 w-9/11 lg:mt-0 mt-17">
 
-                <h1 className="md:text-5xl text-3xl mb-5 self-start lg:self-start md:self-center font-bold text-lime-200">
+                <h1 className="md:text-5xl text-3xl mb-5 lg:mb-15 xl:mb-5 self-start lg:self-start md:self-center font-bold text-lime-200">
                     {data?.profileSection?.title}
                 </h1>
 

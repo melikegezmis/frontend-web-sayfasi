@@ -9,8 +9,8 @@ export function Projects(){
     if (!data) return null;
 
     return(
-        <section className="flex justify-center h-350 lg:h-240 md:h-220 w-full bg-lime-200 dark:bg-[#1b2204]">
-            <div className="flex flex-col items-center sm:gap-5 gap-10 sm:p-15 lg:w-8/11 md:w-27/28 w-9/11">
+        <section className="flex justify-center h-350 lg:h-260 xl:h-240 md:h-220 w-full bg-lime-200 dark:bg-[#1b2204]">
+            <div className="flex flex-col items-center sm:gap-5 gap-10 sm:p-15 lg:w-10/11 xl:w-8/11 md:w-27/28 w-9/11">
 
                 <h1 className="md:text-5xl text-3xl self-start font-bold text-indigo-600 dark:text-lime-200 sm:mb-10 mt-15 sm:mt-0">
                     {data?.projectsSection?.title}
@@ -35,7 +35,7 @@ export function Projects(){
                                     ))}
                                 </div>
 
-                                <nav className="flex flex-row gap-5 underline dark:text-lime-200">
+                                <nav className="flex flex-row gap-5 underline dark:text-lime-200 lg:text-xl">
                                     <a href="$">{item.viewSite}</a>
                                     <a href={`${item.githubLink}`}>{item.github}</a>
                                 </nav>
