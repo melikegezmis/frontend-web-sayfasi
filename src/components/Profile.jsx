@@ -16,10 +16,10 @@ export function Profile(){
                     {data?.profileSection?.title}
                 </h1>
 
-                <div className="flex flex-col justify-center lg:justify-center md:items-center self-end lg:flex-row lg:gap-9 md:gap-12 gap-12 mt-7 lg:mt-0">
+                <div className="flex flex-col justify-center lg:justify-center md:items-center self-end lg:flex-row lg:gap-5 xl:gap-9 md:gap-12 gap-12 mt-7 lg:mt-0">
 
-                    <div className="flex flex-col justify-between lg:w-3/9 md:w-155 w-10/11">
-                        <h2 className="md:text-3xl text-2xl text-white mb-4 lg:mb-10 md:mb-8">
+                    <div className="flex flex-col justify-between lg:w-4/12 md:w-155 xl:w-155 w-10/11">
+                        <h2 className="md:text-3xl xl:text-3xl text-2xl text-white mb-4 lg:mb-10 md:mb-8">
                             {data?.profileSection?.informationTitle}
                         </h2>
                         {data?.profileSection?.information.map((item, index) => (
@@ -30,9 +30,9 @@ export function Profile(){
                         ))}
                     </div>
 
-                    <img src={data?.profileSection?.profileImage} className="lg:w-72 w-11/11 md:w-155 md:h-72 object-cover rounded-sm"/>
+                    <img src={data?.profileSection?.profileImage} className="lg:w-70 xl:w-72 w-11/11 md:w-155 md:h-72 lg:h-79 xl:h-72 object-cover rounded-sm"/>
 
-                    <div className="flex flex-col gap-5 lg:w-90">
+                    <div className="flex flex-col gap-5 lg:w-70 xl:w-90">
                         <h2 className="md:text-3xl text-2xl text-white">
                             {data?.profileSection?.aboutMeTitle}
                         </h2>

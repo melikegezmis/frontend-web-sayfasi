@@ -29,7 +29,7 @@ export function Hero() {
                   {data?.heroSection?.heroTitle}
                 </h1>
 
-                <p className="flex lg:text-lg/6 w-55 lg:w-115 xl:w-140">
+                <p className="flex lg:text-lg/6 w-55 lg:w-92 xl:w-140">
                   {data?.heroSection?.heroText}
                 </p>
 
@@ -54,7 +54,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="w-1/3 sm:w-1/3 lg:w-2/5 xl:w-1/3 bg-lime-200 dark:bg-[#212118]">
+        <div className="w-1/3 sm:w-1/3 lg:w-3/7 xl:w-1/3 bg-lime-200 dark:bg-[#212118]">
           <label className="inline-flex items-center relative cursor-pointer md:ml-5 mt-7 ml-1">
             <input
               type="checkbox"
