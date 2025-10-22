@@ -18,7 +18,7 @@ export function Profile(){
 
                 <div className="flex flex-col justify-center lg:justify-center md:items-center self-end lg:flex-row lg:gap-5 xl:gap-9 md:gap-12 gap-12 mt-7 lg:mt-0">
 
-                    <div className="flex flex-col justify-between lg:w-4/12 md:w-155 xl:w-155 w-10/11">
+                    <div className="flex flex-col justify-between lg:w-4/12 md:w-155 xl:w-5/11 w-10/11">
                         <h2 className="md:text-3xl xl:text-3xl text-2xl text-white mb-4 lg:mb-10 md:mb-8">
                             {data?.profileSection?.informationTitle}
                         </h2>
