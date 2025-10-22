@@ -13,7 +13,7 @@ export function Hero() {
   if (!data) return null;
 
   return (
-    <header className="relative h-170 md:h-120 lg:h-140 xl:h-128 w-full">
+    <header className="relative h-170 md:h-120 lg:h-140 xl:h-130 w-full">
       <section className="flex justify-center xl:justify-end h-full w-full">
 
         <div className="flex justify-center xl:w-7/9 lg:w-1/1 w-9/12 bg-indigo-700 dark:bg-indigo-950 text-white lg:p-4">
@@ -29,7 +29,7 @@ export function Hero() {
                   {data?.heroSection?.heroTitle}
                 </h1>
 
-                <p className="flex lg:text-lg/6 w-55 lg:w-92 xl:w-130">
+                <p className="flex lg:text-lg/6 xl:text-xl/6 w-55 lg:w-92 xl:w-120">
                   {data?.heroSection?.heroText}
                 </p>
 
