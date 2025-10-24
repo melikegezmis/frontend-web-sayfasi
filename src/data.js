@@ -97,7 +97,7 @@ export const datalar = {
                 {
                     name: "Pizza Order Website",
                     projectImage: "./assets/pizza-s8.PNG",
-                    text: "This project is a pizza website built with HTML, React, and CSS. The site offers a modern and user-friendly design through its color scheme and typography. When the “ACIKTIM” button is clicked, the user is directed to the order page where they can select pizza toppings, size, crust, and quantity. The selected information is then transferred to the order summary page, allowing the user to review their choices. The site provides both an aesthetic and interactive experience.",
+                    text: "This project is a pizza website built with HTML, React, and CSS. The site offers a modern and user-friendly design through its color scheme and typography. When the “ACIKTIM” button is clicked, the user is directed to the order page where they can select pizza toppings, size, crust, and quantity. The selected information is then transferred to the order summary page, allowing the user to review their choices.",
                     skills: ["react", "redux", "vercel"],
                     viewSite: "View Site",
                     github: "Github",
@@ -228,7 +228,7 @@ export const datalar = {
                 {
                     name: "Pizza Sipariş Sitesi",
                     projectImage: "/assets/pizza-s8.PNG",
-                    text: "Bu proje, HTML, React ve CSS kullanılarak oluşturulmuş bir pizza sitesidir. Site, renk uyumu ve tipografiyle modern ve kullanıcı dostu bir görünüm sunar. “ACIKTIM” butonuna tıklandığında kullanıcı, pizza malzemesi, boyutu, hamuru ve adedini seçebileceği sipariş sayfasına yönlendirilir. Seçilen bilgiler, sipariş özeti sayfasına aktarılır ve kullanıcı yaptığı seçimi görebilir. Tasarımı sayesinde site hem estetik hem de interaktif bir deneyim sunar.",
+                    text: "Bu proje, HTML, React ve CSS kullanılarak oluşturulmuş bir pizza sitesidir. Site, renk uyumu ve tipografiyle modern ve kullanıcı dostu bir görünüm sunar. “ACIKTIM” butonuna tıklandığında kullanıcı, pizza malzemesi, boyutu, hamuru ve adedini seçebileceği sipariş sayfasına yönlendirilir. Seçilen bilgiler, sipariş özeti sayfasına aktarılır ve kullanıcı yaptığı seçimi görebilir.",
                     skills: ["react", "redux", "vercel"],
                     viewSite: "Siteyi Gör",
                     github: "Github",
