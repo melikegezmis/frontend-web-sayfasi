@@ -11,7 +11,7 @@ export function Skills(){
     return(
         <section className="flex justify-center h-85 md:h-105 lg:h-160 xl:h-136 w-full md:pb-0 dark:bg-neutral-800">
             <div className="flex flex-col md:flex-row sm:items-center sm:justify-between md:gap-10 gap-5 lg:p-15 xl:w-8/11 lg:w-12/13 md:w-11/13 w-11/13">
-                <h1 className="lg:text-5xl md:text-4xl text-3xl lg:w-30 md:self-start self-center font-bold lg:mb-8 sm:mb-10 mb-0 xl:mt-0 mt-10 text-indigo-600 dark:text-lime-200">
+                <h1 className="lg:text-5xl md:text-4xl text-3xl lg:w-30 md:self-start self-center font-bold lg:mb-8 sm:mb-10 mb-0 xl:mt-0 mt-10 text-violet-600 dark:text-amber-200">
                     {data?.skillsSection?.title}
                 </h1>
                 <div className="flex flex-row sm:items-start justify-between flex-wrap lg:gap-10 md:gap-5 sm:w-9/13 lg:7/13 xl:w-9/13">

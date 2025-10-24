@@ -14,13 +14,13 @@ export function Footer(){
         <footer className="h-110 sm:h-120 w-full dark:bg-neutral-800">
             <div className="flex flex-row justify-center">
                 <div className="flex flex-col items-center justify-center gap-10">
-                    <h1 className="sm:text-5xl text-3xl font-bold text-indigo-600 dark:text-[#937aff] mt-15">
+                    <h1 className="sm:text-5xl text-3xl font-bold text-violet-600 dark:text-[#937aff] mt-15">
                         {data?.footerSection?.footerTitle}
                     </h1>
 
                     <p className="sm:text-2xl text-xl w-8/11 text-center dark:text-white">{data?.footerSection?.footerText}</p>
 
-                    <p className="sm:text-2xl text-xl text-indigo-600 dark:text-[#937aff] underline">{data?.footerSection?.email}</p>
+                    <p className="sm:text-2xl text-xl text-violet-600 dark:text-[#937aff] underline">{data?.footerSection?.email}</p>
 
                     <div className="flex flex-row gap-5">
                        <div className="flex flex-row gap-5">

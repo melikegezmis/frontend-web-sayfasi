@@ -2,7 +2,7 @@
 export const datalar = {
     en: {
         heroSection: { 
-            heroImage: "/assets/hero.png",
+            heroImage: "/assets/herophoto.jpg",
             heroLanguage: "TÜRKÇE'YE GEÇ",
             heroToastLanguage: "Türkçe'ye Geçildi!",
             heroThemeLight: "DARK MODE",
@@ -76,7 +76,7 @@ export const datalar = {
                     text: "Frontend, UI"
                 }
             ],
-            profileImage: "/assets/profile.png",
+            profileImage: "/assets/image.jpeg",
             aboutMeTitle: "About Me",
             aboutMeText: "I am a Fullstack Software Development student at Workintech. I enjoy improving my skills in software development and learning new technologies. I am a team player, open to learning, and aiming to build a career in this field.",
         },
@@ -86,21 +86,23 @@ export const datalar = {
             projects:[
                 {
                     name: "Workintech",
-                    projectImage: "./assets/projects-1.png",
-                    text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                    projectImage: "./assets/pizza-s4.PNG",
+                    text: "This project is a static single-page pizza website built with HTML and CSS. The site offers a visually appealing design through its color palette and typography. Different pizza and fast food products are displayed with cards enriched with images and icons.",
                     skills: ["react", "redux", "vercel"],
                     viewSite: "View Site",
                     github: "Github",
                     githubLink: "https://github.com/melikegezmis/pizza-sayfasi-html-css-s4",
+                    vercelLink: "https://pizza-sayfasi-html-css-s4.vercel.app/"
                 },
                 {
                     name: "Journey",
-                    projectImage: "./assets/projects-2.png",
-                    text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                    projectImage: "./assets/pizza-s8.PNG",
+                    text: "This project is a pizza website built with HTML, React, and CSS. The site offers a modern and user-friendly design through its color scheme and typography. When the “ACIKTIM” button is clicked, the user is directed to the order page where they can select pizza toppings, size, crust, and quantity. The selected information is then transferred to the order summary page, allowing the user to review their choices. The site provides both an aesthetic and interactive experience.",
                     skills: ["react", "redux", "vercel"],
                     viewSite: "View Site",
                     github: "Github",
                     githubLink: "https://github.com/melikegezmis/html-css-react-pizza-sayfasi-s8",
+                    vercelLink:"https://html-css-react-pizza-sayfasi-s8.vercel.app/",
                 }
             ]
         },
@@ -108,7 +110,7 @@ export const datalar = {
         footerSection: {
             footerTitle: "Send me a message!",
             footerText: "Got a question or proposal, or just want to say hello? Go ahead.",
-            email: "example@mail.com",
+            email: "melikegzms@gmail.com",
             iconsWhite:  [
                 "https://img.icons8.com/ios/50/FFFFFF/twitter--v1.png",
                 "https://img.icons8.com/ios/50/FFFFFF/orthogonal-view--v1.png",
@@ -131,7 +133,7 @@ export const datalar = {
 
     tr: {
         heroSection: { 
-            heroImage: "/assets/hero.png",
+            heroImage: "/assets/herophoto.jpg",
             heroLanguage: "SWITCH TO ENGLISH",
             heroToastLanguage: "Switched to English!",
             heroThemeLight: "KARANLIK MOD",
@@ -205,7 +207,7 @@ export const datalar = {
                     text: "Frontend, UI"
                 }
             ],
-            profileImage: "/assets/profile.png",
+            profileImage: "/assets/image.jpeg",
             aboutMeTitle: "Hakkımda",
             aboutMeText: "Workintech yazılım kursunda Fullstack Yazılım öğrencisiyim. Yazılım geliştirme alanında kendimi geliştirmeyi seviyorum ve yeni teknolojiler öğrenmekten keyif alıyorum. Takım çalışmasına uyum sağlayabilen, öğrenmeye açık biriyim ve bu alanda kariyer yapmak istiyorum.",
         },
@@ -215,21 +217,23 @@ export const datalar = {
             projects:[
                 {
                     name: "Workintech",
-                    projectImage: "/assets/projects-1.png",
-                    text: "Basit, özelleştirilebilir ve minimal kurulumlu bir çerez eklentisi, kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler kullanılarak oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kodda ve temalarda her türlü özelleştirme mümkündür.",
+                    projectImage: "/assets/pizza-s4.PNG",
+                    text: "Bu proje, HTML ve CSS ile hazırlanmış statik bir tek sayfa pizza sitesidir. Site, renk paleti ve tipografiyle göze hoş gelen bir görünüm sunar. Farklı pizza ve fast food ürünleri, görseller ve ikonlarla zenginleştirilmiş kart yapılarıyla sergilenir.",
                     skills: ["react", "redux", "vercel"],
                     viewSite: "Siteyi Gör",
                     github: "Github",
                     githubLink: "https://github.com/melikegezmis/pizza-sayfasi-html-css-s4",
+                    vercelLink: "https://pizza-sayfasi-html-css-s4.vercel.app/"
                 },
                 {
                     name: "Journey",
-                    projectImage: "/assets/projects-2.png",
-                    text: "Basit, özelleştirilebilir ve minimal kurulumlu bir çerez eklentisi, kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler kullanılarak oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kodda ve temalarda her türlü özelleştirme mümkündür.",
+                    projectImage: "/assets/pizza-s8.PNG",
+                    text: "Bu proje, HTML, React ve CSS kullanılarak oluşturulmuş bir pizza sitesidir. Site, renk uyumu ve tipografiyle modern ve kullanıcı dostu bir görünüm sunar. “ACIKTIM” butonuna tıklandığında kullanıcı, pizza malzemesi, boyutu, hamuru ve adedini seçebileceği sipariş sayfasına yönlendirilir. Seçilen bilgiler, sipariş özeti sayfasına aktarılır ve kullanıcı yaptığı seçimi görebilir. Tasarımı sayesinde site hem estetik hem de interaktif bir deneyim sunar.",
                     skills: ["react", "redux", "vercel"],
                     viewSite: "Siteyi Gör",
                     github: "Github",
-                    githubLink: "https://github.com/melikegezmis/html-css-react-pizza-sayfasi-s8",
+                    githubLink:"https://github.com/melikegezmis/html-css-react-pizza-sayfasi-s8",
+                    vercelLink:"https://html-css-react-pizza-sayfasi-s8.vercel.app/",
                 }
             ]
         },
@@ -237,7 +241,7 @@ export const datalar = {
         footerSection: {
             footerTitle: "Benimle iletişime geç!",
             footerText: "Bir sorunuz, teklifiniz ya da sadece selam vermek mi istiyorsunuz? İletişime geçmekten çekinmeyin.",
-            email: "example@mail.com",
+            email: "melikegzms@gmail.com",
             iconsWhite:  [
                 "https://img.icons8.com/ios/50/FFFFFF/twitter--v1.png",
                 "https://img.icons8.com/ios/50/FFFFFF/orthogonal-view--v1.png",

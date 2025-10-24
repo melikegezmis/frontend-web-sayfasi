@@ -15,7 +15,7 @@ const DataProvider = ({children}) => {
 
 
     useEffect(()=>{
-        axios.post("https://reqres.in/api/users", datalar, {
+        axios.post("https://reqres.in/api/workintech", datalar, {
             headers: {
                 "x-api-key": "reqres-free-v1",
             }
