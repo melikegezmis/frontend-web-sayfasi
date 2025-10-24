@@ -85,7 +85,7 @@ export const datalar = {
             title: "Projects",
             projects:[
                 {
-                    name: "Workintech",
+                    name: "Static Pizza Website",
                     projectImage: "./assets/pizza-s4.PNG",
                     text: "This project is a static single-page pizza website built with HTML and CSS. The site offers a visually appealing design through its color palette and typography. Different pizza and fast food products are displayed with cards enriched with images and icons.",
                     skills: ["react", "redux", "vercel"],
@@ -95,7 +95,7 @@ export const datalar = {
                     vercelLink: "https://pizza-sayfasi-html-css-s4.vercel.app/"
                 },
                 {
-                    name: "Journey",
+                    name: "Pizza Order Website",
                     projectImage: "./assets/pizza-s8.PNG",
                     text: "This project is a pizza website built with HTML, React, and CSS. The site offers a modern and user-friendly design through its color scheme and typography. When the “ACIKTIM” button is clicked, the user is directed to the order page where they can select pizza toppings, size, crust, and quantity. The selected information is then transferred to the order summary page, allowing the user to review their choices. The site provides both an aesthetic and interactive experience.",
                     skills: ["react", "redux", "vercel"],
@@ -216,7 +216,7 @@ export const datalar = {
             title: "Projeler",
             projects:[
                 {
-                    name: "Workintech",
+                    name: "Statik Pizza Sitesi",
                     projectImage: "/assets/pizza-s4.PNG",
                     text: "Bu proje, HTML ve CSS ile hazırlanmış statik bir tek sayfa pizza sitesidir. Site, renk paleti ve tipografiyle göze hoş gelen bir görünüm sunar. Farklı pizza ve fast food ürünleri, görseller ve ikonlarla zenginleştirilmiş kart yapılarıyla sergilenir.",
                     skills: ["react", "redux", "vercel"],
@@ -226,7 +226,7 @@ export const datalar = {
                     vercelLink: "https://pizza-sayfasi-html-css-s4.vercel.app/"
                 },
                 {
-                    name: "Journey",
+                    name: "Pizza Sipariş Sitesi",
                     projectImage: "/assets/pizza-s8.PNG",
                     text: "Bu proje, HTML, React ve CSS kullanılarak oluşturulmuş bir pizza sitesidir. Site, renk uyumu ve tipografiyle modern ve kullanıcı dostu bir görünüm sunar. “ACIKTIM” butonuna tıklandığında kullanıcı, pizza malzemesi, boyutu, hamuru ve adedini seçebileceği sipariş sayfasına yönlendirilir. Seçilen bilgiler, sipariş özeti sayfasına aktarılır ve kullanıcı yaptığı seçimi görebilir. Tasarımı sayesinde site hem estetik hem de interaktif bir deneyim sunar.",
                     skills: ["react", "redux", "vercel"],
